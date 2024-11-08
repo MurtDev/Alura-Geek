@@ -1,24 +1,32 @@
 # Alura Geek
 
-**Alura Geek** es un proyecto de página web de comercio electrónico inspirado en el estilo retro de videojuegos. Desarrollado como parte del aprendizaje en Alura Latam, este proyecto utiliza **HTML, CSS y JavaScript** para ofrecer una experiencia visual única y funcionalidades básicas para gestionar productos.
+**Alura Geek** es una página web de comercio electrónico inspirada en el estilo retro de videojuegos, desarrollada con HTML, CSS y JavaScript, como parte del aprendizaje en **Alura Latam**. Este proyecto incluye funcionalidades como búsqueda de productos y la posibilidad de agregar productos, además de un diseño responsivo con efectos visuales retro.
 
 ## Características
 
-- **Búsqueda de productos**: Permite a los usuarios buscar productos fácilmente desde el campo de búsqueda.
-- **Agregar productos**: Los usuarios pueden agregar nuevos productos con nombre, precio e imagen.
-- **Diseño responsivo**: Adaptado para dispositivos móviles, tablets y desktops.
-- **Interfaz visual mejorada**: Sombras, colores personalizados y un estilo retro para mejorar la experiencia de usuario.
+- **Búsqueda de productos**: Permite a los usuarios buscar productos desde el campo de búsqueda.
+- **Agregar productos**: Los usuarios pueden añadir nuevos productos con nombre, precio e imagen.
+- **Simulación de API con JSON Server**: Uso de `db.json` como base de datos para manejar productos de forma local.
+- **Interfaz visual mejorada**: Sombras y colores personalizados para una experiencia de usuario única.
 
 ## Tecnologías Utilizadas
 
 - **HTML5**
 - **CSS3**
 - **JavaScript**
+- **JSON Server** (para simular el backend)
 - **Google Fonts** (Press Start 2P)
 - **Font Awesome** y **Lucide Icons**
 
-## Instalación
+## Requisitos para Visualizar `db.json`
 
-1. Clona el repositorio:
+Para usar el archivo `db.json` y simular una API local, sigue estos pasos:
+
+### Instalación de JSON Server
+
+1. Instala [Node.js](https://nodejs.org/) si aún no lo tienes.
+2. Luego, instala JSON Server globalmente:
+
    ```bash
-   git clone https://github.com/tu-usuario/alura-geek.git
+   npm install -g json-server
+
