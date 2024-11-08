@@ -1,0 +1,58 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "Sable Laser Azul",
+      "price": 20000,
+      "image": "https://cdn.shopify.com/s/files/1/0610/1562/1873/files/espada-laser-azul_1600x.jpg"
+    },
+    {
+      "id": "2",
+      "name": "Atari 2600",
+      "price": 10000,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Atari-2600-Wood-4Sw-Set.jpg/1024px-Atari-2600-Wood-4Sw-Set.jpg"
+    },
+    {
+      "id": "649f",
+      "name": "Reloj Transformers Robot",
+      "price": 15000,
+      "image": "https://frognum.cl/wp-content/uploads/2020/09/robot_reloj01-1024x828.jpg"
+    },
+    {
+      "id": "d8b9",
+      "name": "Gato Samurai",
+      "price": 25000,
+      "image": "https://s3.eu-central-1.wasabisys.com/mediacloud-anime/2022/07/SpeedyCeviche.jpg"
+    },
+    {
+      "id": "1961",
+      "name": "R2-D2",
+      "price": 12000,
+      "image": "https://tiendahogardecristo.cl/wp-content/uploads/2022/10/p-a119004116-1-12358620-d77a-4932-b9e1-a8d49dd899dc.jpg"
+    },
+    {
+      "id": "336c",
+      "name": " Donkey Kong",
+      "price": 11000,
+      "image": "https://www.toysandtoys.cl/cdn/shop/files/GUEST_284966a4-8d5c-47dd-a0fc-953343f9b7e3_700x700.jpg"
+    },
+    {
+      "id": "a46e",
+      "name": "Juego Donkey Kong",
+      "price": 50000,
+      "image": "https://m.media-amazon.com/images/I/6183MS9SbuL.jpg"
+    },
+    {
+      "id": "2772",
+      "name": "Game Boy - Original",
+      "price": 40000,
+      "image": "https://m.media-amazon.com/images/I/51K+7ftcmNL._SX466_.jpg"
+    },
+    {
+      "id": "f4ce",
+      "name": "Los Motorratones de Marte",
+      "price": 37000,
+      "image": "https://m.supergeek.cl/noticias/site/artic/20230223/imag/foto_0000000220230223112128/marte.jpg"
+    }
+  ]
+}

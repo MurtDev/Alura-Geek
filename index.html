@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alura Geek</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+    <header class="header-shadow">
+        <nav>
+            <div class="logo"><i class="fas fa-gamepad">      Alura Geek</i>    </div>
+            <div class="search">
+                <input type="text" id="search-input" placeholder="Buscar...">
+                <i data-lucide="search"></i>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="content-wrapper">
+            <section class="products-section">
+                <h2> Mis Productos:</h2>
+                <div id="products-container" class="products-grid"></div>
+            </section>
+
+            <section class="form-section">
+                <h2>Agregar Producto:</h2>
+                <form id="product-form" class="product-form">
+                    <div class="form-group">
+                      
+                        <input type="text" id="product-name" placeholder="Nombre..." required>
+                    </div>
+                    <div class="form-group">
+                      
+                        <input type="number" id="product-price" step="1" placeholder="Precio..." required>
+                    </div>
+                    <div class="form-group">
+                      
+                        <input type="url" id="product-image" placeholder="URL..." required>
+                    </div>
+                    <div class="form-actions">
+                        <button type="submit" class="btn-primary">Agregar</button>
+                        <button type="reset" class="btn-secondary">Limpiar</button>
+                    </div>
+                </form>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <p>
+            <i data-lucide="sword"></i>
+            <i data-lucide="sword"></i>
+            Alura Geek
+            <i data-lucide="sword"></i>
+            <i data-lucide="sword"></i><br>
+            Desarrollado por Mauricio Navea L. <br> ALURA LATAM - 2024
+        </p>
+    </footer>
+    
+    <script>
+        lucide.createIcons();
+    </script>
+    
+    
+
+    <script src="script.js"></script>
+    <script>
+        lucide.createIcons();
+    </script>
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <img id="modal-image" src="" alt="Producto" class="modal-image">
+            <div id="modal-info" class="modal-info"></div>
+        </div>
+    </div>
+    
+</body>
+</html>
